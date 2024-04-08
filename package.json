@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "production": "node dist/server/run"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.7"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vonojs/vono": "1.0.0-alpha-3",
+    "itty-router": "^5.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vike": "^0.4.168",
+    "vike-react": "^0.4.6"
+  }
+}
